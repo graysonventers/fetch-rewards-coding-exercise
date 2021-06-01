@@ -1,3 +1,6 @@
+## `Deployed Application URL`
+https://fetchrewardscodingexercise.netlify.app/
+
 ## `Challenge/Directions`
 
 Please write a web app that retrieves the data from https://fetch-hiring.s3.amazonaws.com/hiring.json.
