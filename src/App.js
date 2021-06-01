@@ -42,21 +42,14 @@ function App() {
   return (
 
     !loading && (
-      
-      <div className="App">
-        <table>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>list Id</th>
-              <th>name</th>
-            </tr>
-          </thead>
-          <tbody>
-            {uniqueIds.map(uniqueId => <ListIDBox list={list.filter(item => item.listId === uniqueId)} key={uniqueId}/>)}
-          </tbody>
-        </table>
-        
+      <div className="container">
+        <div className="card header">
+          <span>ID</span>
+          <span>List Id</span>
+          <span>Name</span>
+        </div>
+          
+        {uniqueIds.map(uniqueId => <ListIDBox list={list.filter(item => item.listId === uniqueId)} key={uniqueId}/>)}
       </div>
     )
   )
