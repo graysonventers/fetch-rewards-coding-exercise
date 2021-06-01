@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
+    background-color: #f1f1f1;
 }
 
 .container {
   margin-top: 5%;
   width: 70vw;
   margin-left: 10vw;
-  border: 1px solid black;
   padding: 0 5%;
 }
 
