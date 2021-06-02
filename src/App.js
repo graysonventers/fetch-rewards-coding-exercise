@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css';
 import ListIDBox from './components/ListIDBox';
+import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
 
@@ -50,6 +51,8 @@ function App() {
         </div>
           
         {uniqueIds.map(uniqueId => <ListIDBox list={list.filter(item => item.listId === uniqueId)} key={uniqueId}/>)}
+
+        <ScrollToTopBtn />
       </div>
     )
   )

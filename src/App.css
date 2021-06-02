@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 .container {
@@ -13,22 +13,50 @@ body {
   padding: 0 5%;
 }
 
+.btn {
+  background-color: #2f0c38;
+  color: #ffa500;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: .7em;
+  position: fixed;
+  left: 1.5%;
+  bottom: 5%;
+  box-shadow: 2px 2px 0px 0 rgba(0,0,0,0.2);
+}
+
 .card {
-  background-color: rgb(248, 247, 247);
+  color: #2f0c38;
+  background-color: #ffffff;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+  border: 2px solid #ffa500;
   border-radius: 5px;
+  height: 5vh;
   margin: 2% 0;
   padding: 2% 10%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
 .header {
   font-size: 1.5em;
   justify-content: space-between;
+  background-color: #ffa500;
 } 
 
 .card:hover {
   box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    margin-top: 5%;
+    width: 40vw;
+    margin-left: 25vw;
+    padding: 0 5%;
+  }
 }
